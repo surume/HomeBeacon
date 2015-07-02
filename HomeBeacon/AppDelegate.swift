@@ -18,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
     BeaconManager.instance.startMoniter()
 
+    application.registerUserNotificationSettings(UIUserNotificationSettings(forTypes: UIUserNotificationType.Alert , categories: nil))
     return true
   }
 
