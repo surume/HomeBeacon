@@ -4,6 +4,8 @@
 <dict>
 	<key>NSLocationAlwaysUsageDescription</key>
 	<string>ビーコン観測に使用します</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>ビーコン観測に使用します</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
